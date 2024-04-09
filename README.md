@@ -35,5 +35,19 @@ sudo apt install python3-pip
     
 <br>
 
+
+<h2>To obtain the API token required for the MintChain bot configuration, follow these steps:</h2>
+
+1. Open your web browser and navigate to the MintChain website.
+2. Log in to your MintChain account using your credentials.
+3. Once logged in, open the developer tools in your browser. You can usually do this by pressing F12 or by right-clicking on the page and selecting "Inspect" or "Inspect Element".
+4. In the developer tools window, navigate to the "Network" tab.
+5. Perform an action on the MintChain website that requires authentication, such as refreshing the page or accessing a protected resource.
+6. As you perform the action, you will see network requests being logged in the "Network" tab.
+7. Look for a network request related to the action you performed. This request should require authentication and will contain the Authorization token in its headers.
+8. Click on the request to view its details.
+9. In the request headers section, you should see an "Authorization" header with a value starting with "Bearer". This value is your API token.
+10. Copy this API token and paste it into the script when prompted for the MintChain API token.
+
 Congratulation You are running the MintForest bot by One click only!!<br>
 That's it for now!!!
